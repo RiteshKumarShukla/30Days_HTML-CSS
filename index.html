@@ -1,298 +1,163 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Periodic Table</title>
-    <style>
-        h1 {
-           text-align: center;
-         }
-        .id1{
-            height:50px;
-            width:100%;
-            border:1px solid white;
-            justify-content: space-evenly;
-            display:flex;
-            margin-top: 15px;
-            /* margin:auto; */
-        }
-        .cls1{
-            height:50px;
-            width:4%;
-            border:2px solid black;
-            background-color: blue;
-            /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
-            border-radius: 15px;
-            /* margin-top:10px; */
-        }
-        h3{
-            text-align: center;
-            /* font-size: 20px; */
-        }
-        #last1{
-            width:50%;
-            height:50px;
-            border:1px solid black;
-            text-align: center;
-            justify-content: space-evenly;
-            margin:auto;
-            display:flex;
-            background-color: green;
-            
-        }
-        #last2{
-            width:50%;
-            height:50px;
-            border:1px solid black;
-            text-align: center;
-            justify-content: space-evenly;
-            margin:auto;
-            display:flex;
-            background-color: lightgreen;
-            
-        }
-        .last{
-            height:100%;
-            width:7.14%;
-            border:1px solid grey;
-        }
-        p{
-            color:white;
-            text-align: center;
-        }
-        h4{
-            color:black;
-            text-align: center;
-        }
-        .white{
-            background-color: white;
-            border:2px solid white;
-        }
-        .green{
-            background-color: green;
-            border:2px solid black;
-        }
-        .orange{
-            background-color: orange;
-            border:2px solid black;
-        }
-        .red{
-            background-color: red;
-            border:2px solid black;
-        }
-        .pink{
-            background-color: pink;
-            border:2px solid black;
-        }
-        .brown{
-            background-color: brown;
-            border:2px solid black;
-        }
-        .purple{
-            background-color: purple;
-            border:2px solid black;
-        }
-        .rgb{
-            background-color:rgb(255, 0, 119);
-            border:2px solid black
-        }
-        .orangered{
-            background-color:orangered;
-            border:2px solid black
-        }
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .heading{
+        text-align: center;
+        color: rgb(8, 92, 92);
+    }
+    #team-members{
+        height:auto;
+        width:80%;
+        border:1px solid white;
+        display:flex;
+        justify-content: space-evenly;
+        text-align: center;
+        margin:auto;
+        padding-left: 100px;
+        padding-right:100px;
+        margin-bottom: 70px;
+    }
+    .team-members-child{
+        height:100%;
+        width:24%;
+        border:1px solid white;
+        text-align: center;
+        margin:auto;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         
+    }
+    #team-stats{
+        height:150px;
+        width:100%;
+        /* border:1px solid blue; */
+        display:flex;
+        text-align: center;
+        margin:auto;
+        justify-content: space-evenly;
+        padding-bottom: 35px;
+        /* margin-bottom: 10px; */
         
+    }
+    .team-stats-child{
+        height:100%;
+        width:20%;
+        /* border:1px solid red; */
+        background-color: rgb(192, 136, 23);
+        padding-top: 20px;
         
-    </style>
+    }
+    #cards{
+        height:auto;
+        width:80%;
+        border:1px solid white;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        margin:auto;
+    }
+    .cards-child{
+        height:100%;
+        width:32%;
+        border:1px solid white;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+  </style>
 </head>
+
 <body>
-    <h1>THE PERIODIC TABLE OF ELEMENTS</h1><br>
-    <div  class="id1">
-        <div class="cls1 red">
-        <h3>H</h3></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 orange"></div>
+  <div class="heading">
+    <h1>Meet Our Expert Members</h1>
+    <p>Who are in extremely love with eco friendly system.</p>
+  </div>
+  <!-- Top-section -->
+  <div id="team-members">
+    <!-- This section should contain 4 children divs, each div should have img,h2,p --><div class="team-members-child">
+        <img src="https://preview.colorlib.com/theme/builder/img/team/xteam-1.jpg.pagespeed.ic.yZlVhxKOJ_.webp"/>
+        <h2>Ethel Davis</h2>
+        <p>Managing Director(Sales)</p>
     </div>
-    <div  class="id1">
-        <div class="cls1 green"></div>
-        <div class="cls1 pink">
-        <h3>4</h3></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 purple"></div>
-        <div class="cls1 green"></div>
-        <div class="cls1 green"></div>
-        <div class="cls1 green"></div>
-        <div class="cls1 rgb"></div>
-        <div class="cls1 orange"></div>
+    <div class="team-members-child">
+        <img src="https://preview.colorlib.com/theme/builder/img/team/xteam-3.jpg.pagespeed.ic.EGpDzKGdSZ.webp
+        "/>
+        <h2>Ethel Davis</h2>
+        <p>Managing Director(Sales)</p>
     </div>
-    <div  class="id1">
-        <div class="cls1 green"></div>
-        <div class="cls1 pink">
-        <h3>12</h3></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 white"></div>
-        <div class="cls1 orangered"></div>
-        <div class="cls1 purple"></div>
-        <div class="cls1 green"></div>
-        <div class="cls1 green"></div>
-        <div class="cls1 rgb"></div>
-        <div class="cls1 orange"></div>
+    <div class="team-members-child">
+        <img src="https://preview.colorlib.com/theme/builder/img/team/xteam-1.jpg.pagespeed.ic.yZlVhxKOJ_.webp"/>
+        <h2>Ethel Davis</h2>
+        <p>Managing Director(Sales)</p>
+    </div> 
+    <div class="team-members-child">
+        <img src="https://preview.colorlib.com/theme/builder/img/team/xteam-3.jpg.pagespeed.ic.EGpDzKGdSZ.webp
+        "/>
+        <h2>Ethel Davis</h2>
+        <p>Managing Director(Sales)</p>
     </div>
-    <div  class="id1">
-        <div class="cls1 green"></div>
-        <div class="cls1 pink">
-        <h3>20</h3></div>
-        <div class="cls1 white"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1 orangered"></div>
-        <div class="cls1 purple"></div>
-        <div class="cls1 purple"></div>
-        <div class="cls1 green"></div>
-        <div class="cls1 rgb"></div>
-        <div class="cls1 orange"></div>
+  </div>
+
+  <!-- Medium-section -->
+  <div id="team-stats">
+    <!-- This section should contain 5 children divs, each div should have h1,p -->
+    <div class="team-stats-child">
+        <h1>101</h1>
+        <p>Projects Completed</p>
     </div>
-    <div  class="id1">
-        <div class="cls1 green"></div>
-        <div class="cls1 pink">
-        <h3>38</h3></div>
-        <div class="cls1 white"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1 orangered"></div>
-        <div class="cls1 orangered"></div>
-        <div class="cls1 purple"></div>
-        <div class="cls1 purple"></div>
-        <div class="cls1 rgb"></div>
-        <div class="cls1 orange"></div>
+    <div class="team-stats-child">
+        <h1>1032</h1>
+        <p>Projects Completed</p>
     </div>
-    <div  class="id1">
-        <div class="cls1 green"></div>
-        <div class="cls1 pink">
-        <h3>56</h3></div>
-        <div class="cls1" style="background-color:pink; border:4px solid black"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1 orangered"></div>
-        <div class="cls1 orangered"></div>
-        <div class="cls1 orangered"></div>
-        <div class="cls1 purple"></div>
-        <div class="cls1 rgb"></div>
-        <div class="cls1 orange"></div>
+    <div class="team-stats-child">
+        <h1>1026</h1>
+        <p>Projects Completed</p>
     </div>
-    <div  class="id1">
-        <div class="cls1 green"></div>
-        <div class="cls1 pink">
-            <h3>88</h3></div>
-        <div class="cls1" style="background-color:pink; border:4px solid black"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1"></div>
-        <div class="cls1 brown"></div>
-        <div class="cls1 brown"></div>
-        <div class="cls1 brown"></div>
-        <div class="cls1 brown"></div>
-        <div class="cls1 brown"></div>
-        <div class="cls1 brown"></div>
-    </div><br><br><br><br>
-    <div id="last1">
-        <div class="last">
-            <p>La</p>
-        </div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
+    <div class="team-stats-child">
+        <h1>1212</h1>
+        <p>Projects Completed</p>
     </div>
-    <div id="last2">
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last">
-            <h4>Am</h4>
-        </div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last"></div>
-        <div class="last">
-            <h4>No</h4>
-        </div>
+    <div class="team-stats-child">
+        <h1>1212</h1>
+        <p>Projects Completed</p>
     </div>
+  </div>
+
+  <div class="heading">
+    <h1>Some Features that Made us Unique</h1>
+    <p>Who are in extremely love with eco friendly system.</p>
+  </div>
+
+  <!-- bottom-section -->
+  <div id="cards">
+    <!-- This section should contain 3 children divs, each div should have img,h2,p -->
+    <div class="cards-child">
+        <img src="https://preview.colorlib.com/theme/builder/img/icon/xservice-icon-3.png.pagespeed.ic.yV783EYUOG.webp"/>
+        <h2>Building Drawings</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis tenetur minus excepturi neque consequatur modi, dolorem laudantium?</p>
+    </div>
+    <div class="cards-child">
+        <img src="https://preview.colorlib.com/theme/builder/img/icon/xservice-icon-2.png.pagespeed.ic.13PWZUOFS1.webp
+        "/>
+        <h2>Painting Constructions</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis tenetur minus excepturi neque consequatur modi, dolorem laudantium?</p>
+    </div>
+    <div class="cards-child">
+        <img src="https://preview.colorlib.com/theme/builder/img/icon/xservice-icon-1.png.pagespeed.ic.QoG5gpYXf0.webp"/>
+        <h2>Repairing Constructions</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis tenetur minus excepturi neque consequatur modi, dolorem laudantium?</p>
+    </div>
+  </div>
 </body>
+
 </html>
